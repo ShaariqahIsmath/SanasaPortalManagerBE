@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portals",
+  "info": {
+    "singularName": "portal",
+    "pluralName": "portals",
+    "displayName": "portals",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
