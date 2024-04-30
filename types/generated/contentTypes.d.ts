@@ -843,6 +843,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     publicationDate: Attribute.Date;
     category: Attribute.String;
     content: Attribute.Text;
+    cover: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
